@@ -1,0 +1,12 @@
+﻿
+@model WebApplication14.Models.Category
+@{
+    ViewBag.Title = "Catering";
+    Layout = null;
+}
+
+<div>
+    @Html.HiddenFor(x => x.id)
+    @Html.HiddenFor(x => x.type)
+    <span>@Html.DisplayFor(x => x.type) @Html.CheckBoxFor(x => x.check)</span>
+</div>
