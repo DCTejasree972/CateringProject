@@ -1,5 +1,11 @@
 ﻿.containerr {
-    margin-top:8%;
+    margin-top: 5%;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
 }
 
 
