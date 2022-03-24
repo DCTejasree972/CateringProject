@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/StyleSheet12.css"/>
     <link rel="stylesheet" href="css/cardsheet.css"/>
     <link rel="stylesheet" href="css/footersheet.css" />
+    <link rel="stylesheet" herf="css/bfsheet.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 
 </head>
@@ -18,6 +19,7 @@
 <body background="Images/bgimg.jpg"
       style="background-repeat:no-repeat;background-size:cover">
     <nav class="navbar navbar-expand-sm navbar-dark bg-danger">
+        <img src="Images/c_logo.png" style="width:30px;height:40px;"/>
         <a href="https://localhost:44367/Homepage.html" class="navbar-brand">Jessica's Kitchen</a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
             <span class="navbar-toggler-icon"></span>
@@ -36,30 +38,37 @@
                 <li class="nav-item" style="color:white;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">
                     <a href="https://localhost:44367/ContactUs.html" class="nav-link">FeedBack</a>
                 </li>
+                <li class="nav-item" style="color:white;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">
+                    <a href="https://localhost:44367/about.html" class="nav-link">About</a>
+                </li>
             </ul>
-
         </div>
-
     </nav>
 
     <!--Auto slide-->
-    <div class="slideshow-container">
+    <div class="slideshow-container" style="padding-top:50px;">
 
         <div class="mySlides fade">
 
             <img src="Images/img2.jpg" style="width:100%;height:450px;">
-            <div class="text">Breakfast</div>
+            <div class="text">Kitchen | Cooking</div>
         </div>
 
-        <div class="mySlides fade">
+        <!--<div class="mySlides fade">
 
             <img src="Images/lunch/rice.jpg" style="width: 100%; height: 450px;">
             <div class="text">Lunch</div>
+        </div> -->
+
+        <div class="mySlides fade">
+
+            <img src="Images/ser.jpg" style="width: 100%; height: 450px;">
+            <div class="text">Serv Food</div>
         </div>
 
         <div class="mySlides fade">
 
-            <img src="https://static.vecteezy.com/system/resources/previews/002/916/697/original/big-isolated-vehicle-colorful-icons-flat-illustrations-of-delivery-by-van-through-gps-tracking-location-delivery-vehicle-goods-and-food-delivery-instant-delivery-online-delivery-vector.jpg" style="width: 100%; height: 450px;">
+            <img src="Images/del.jpg" style="width: 100%; height: 450px;">
             <div class="text">Dinner</div>
         </div>
 
@@ -95,43 +104,33 @@
     </script>
 
 
-    <!-- cards-->
 
-    <div class="row">
-        <div class="column">
+
+    <div class="row"> 
+        <div class="col-sm-4" style="padding-top:20px;">
             <div class="card">
-                <h3>BreakFast</h3>
-                <a href="https://localhost:44367/breakfast.html"><img src="Images/breakfast/idli.jpg" style="width:300px;height:300px;" /></a>
-                <div class="container">
-
+                <div class="card-body">
+                    <h5 class="card-title"><b>BreakFast</b></h5>
+                    <a href="https://localhost:44367/dinnerpage.html"><img src="Images/breakfast/idli.jpg" class="col-sm-12" style="width: 300px; height: 300px; " /></a>
                 </div>
             </div>
         </div>
-
-
-        <div class="column">
+        <div class="col-sm-4" style="padding-top:20px;">
             <div class="card">
-                <h3>Lunch</h3>
-                <a href="https://localhost:44367/lunchpage.html"><img src="Images/lunch/biryani.jpg" style="width:300px;height:300px;" /></a>
-                <div class="container">
-
+                <div class="card-body">
+                    <h5 class="card-title"><b>Lunch</b></h5>
+                    <a href="https://localhost:44367/lunchpage.html"><img src="Images/lunch/biryani.jpg" class="col-sm-12" style="width: 300px; height: 300px;" /></a>
                 </div>
             </div>
         </div>
-
-
-        <div class="column">
+        <div class="col-sm-4" style="padding-top:20px;">
             <div class="card">
-                <h3>Dinner</h3>
-                <a href="https://localhost:44367/dinnerpage.html"><img src="Images/dinner/pbmr.jpg" style="width:300px;height:300px;" /></a>
-                <div class="container">
-
+                <div class="card-body">
+                    <h5 class="card-title"><b>Dinner</b></h5>
+                    <a href="https://localhost:44367/dinnerpage.html"><img src="Images/dinner/pbmr.jpg" class="col-sm-12" style="width: 300px; height: 300px;" /></a>
                 </div>
             </div>
         </div>
-
-
-
     </div>
 
 
@@ -171,8 +170,8 @@
 
                 </div>
                 <marquee><p class="copyright"><h3>Jessica's Kitchen' © 2018</h3></p></marquee>
-                
-</div>
+
+            </div>
         </footer>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
